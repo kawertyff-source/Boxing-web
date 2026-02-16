@@ -1,0 +1,16 @@
+ippo-boxing-game/
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── src/
+    ├── App.jsx
+    ├── main.jsx
+    ├── index.css
+    ├── store/
+    │   └── useGameStore.js      (ระบบจัดการค่าพลังและสุ่มสกิล)
+    ├── components/
+    │   ├── Character3D.jsx      (ตัวละคร 3D Toon Shader)
+    │   ├── Dashboard.jsx        (หน้าจอสถานะและอัพพลัง)
+    │   └── SkillMenu.jsx        (หน้าจอรวมสกิลแยกหมวดหมู่)
+    └── utils/
+        └── rates.js             (Logic การสุ่มและเรทเปอร์เซ็นต์)
